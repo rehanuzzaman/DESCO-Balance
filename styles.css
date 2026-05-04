@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui, sans-serif;
-}
-
 body {
   background: #0f172a;
   color: #f1f5f9;
+  font-family: system-ui;
 }
 
 .container {
@@ -16,36 +10,16 @@ body {
   padding: 16px;
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 22px;
-}
-
 .card {
   background: #1e293b;
   padding: 16px;
   border-radius: 16px;
-  margin-bottom: 14px;
-}
-
-.card h2 {
-  font-size: 16px;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .balance {
   font-size: 28px;
   font-weight: bold;
-}
-
-.status {
-  margin-top: 6px;
-  font-size: 14px;
-}
-
-.low {
-  color: #facc15;
 }
 
 .grid {
@@ -58,7 +32,6 @@ body {
   text-align: center;
 }
 
-.small p {
-  font-size: 18px;
-  margin-top: 6px;
-}
+.low { color: #facc15; }
+.critical { color: #ef4444; }
+.healthy { color: #22c55e; }

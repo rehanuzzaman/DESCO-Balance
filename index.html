@@ -2,48 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>DESCO Smart Dashboard</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="shortcut icon" href="./istockphoto-1234991640-612x612.jpg" type="image/x-icon">
 </head>
 <body>
 
-  <main class="container">
-    <h1 class="title">⚡ DESCO Dashboard</h1>
+<main class="container">
+  <h1 class="title">⚡ DESCO Dashboard</h1>
 
-    <section class="card">
-      <h2>Balance</h2>
-      <p class="balance">৳ 1734.39</p>
-      <p class="status low">Low Balance</p>
-    </section>
+  <section class="card">
+    <h2>Balance</h2>
+    <p class="balance" id="balance">Loading...</p>
+    <p class="status" id="status"></p>
+  </section>
 
-    <section class="grid">
-      <div class="card small">
-        <h3>Days Left</h3>
-        <p id="daysLeft"></p>
-      </div>
-      <div class="card small">
-        <h3>Daily Avg</h3>
-        <p id="dailyAvg"></p>
-      </div>
-    </section>
+  <section class="grid">
+    <div class="card small">
+      <h3>Days Left</h3>
+      <p id="daysLeft">--</p>
+    </div>
+    <div class="card small">
+      <h3>Daily Avg</h3>
+      <p id="dailyAvg">--</p>
+    </div>
+  </section>
 
-    <section class="card">
-      <h2>Customer</h2>
-      <p><strong>Name:</strong> NARAYAN CHANDRA DAS</p>
-      <p><strong>Meter:</strong> 066120001295</p>
-      <p><strong>Location:</strong> Uttara</p>
-      <p><strong>Type:</strong> Residential</p>
-    </section>
+  <section class="card">
+    <h2>Customer</h2>
+    <p id="name"></p>
+    <p id="meter"></p>
+    <p id="address"></p>
+  </section>
 
-    <section class="card">
-      <h2>This Month</h2>
-      <p>৳ 1938.36 used</p>
-    </section>
+</main>
 
-  </main>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
